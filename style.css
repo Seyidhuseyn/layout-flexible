@@ -72,26 +72,28 @@ body {
     justify-content: center;
     align-items: center;
     margin: 10px 0;
+    border-radius: 20px;
 }
 .boxes {
     display: flex;
     justify-content: space-around;
     background-color: cyan;
-    height: 200px;
+    height: 250px;
 }
 .box {
     display: flex;
     flex-direction:column;
     justify-content: space-around;
     align-items: center;
-    flex-basis: 20%;
+    flex-basis: 15%;
     background-color: darkgoldenrod;
     margin: 10px auto;
+    border-radius: 15px;
 }
 .images {
     display: flex;
     justify-content: space-around;
-
+    align-self: center;
 }
 .image {
     display: flex;
@@ -100,4 +102,8 @@ body {
     align-items: center;
     color: white;
     margin: 10px auto;
+}
+.image img {
+    border-radius: 30px;
+    width: 170px;
 }
